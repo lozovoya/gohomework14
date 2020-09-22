@@ -2,7 +2,7 @@ package app
 
 import (
 	"encoding/json"
-	"github.com/lozovoya/gohomework12_1/pkg/card"
+	"github.com/lozovoya/gohomework14_1/pkg/card"
 	"gohomework14/cmd/bank/app/dto"
 	"log"
 	"net/http"
