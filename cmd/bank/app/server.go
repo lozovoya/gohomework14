@@ -2,8 +2,8 @@ package app
 
 import (
 	"encoding/json"
+	"github.com/lozovoya/gohomework14_1/cmd/bank/app/dto"
 	"github.com/lozovoya/gohomework14_1/pkg/card"
-	"gohomework14/cmd/bank/app/dto"
 	"log"
 	"net/http"
 	"strconv"
