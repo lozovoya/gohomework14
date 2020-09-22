@@ -1,0 +1,17 @@
+###
+GET http://localhost:9999/getAllCards HTTP/1.1
+
+###
+GET http://localhost:9999/getHolderCards?holderid=2 HTTP/1.1
+
+###
+GET http://localhost:9999/addHolderCard?holderid=20&issuer=visa&image=virtual HTTP/1.1
+
+###
+GET http://localhost:9999/addHolderCard?holderid=2&issuer=visa&image=virtual HTTP/1.1
+
+###
+GET http://localhost:9999/addHolderCard?holderid=1&issuer=visa&image=vi HTTP/1.1
+
+###
+GET http://localhost:9999/getHolderCards?holderid=20 HTTP/1.1
